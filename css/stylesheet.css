@@ -1,0 +1,78 @@
+body {
+}
+
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	color: red;
+	text-align: center;
+	font-size: 60px;
+}
+
+#title p {
+	text-align: right;
+	margin-bottom: 0;
+	padding-right: 30px;
+	height: 40px;
+}
+
+#title {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+}
+
+#header {
+	background-color:#585858;
+	height:50px;
+	width: 100%;
+}
+
+#search-form {
+	float: left;
+	text-align: center;
+	margin-top: 40px;
+	margin-left: 10px;
+	width: 25%;
+	height: 400px;
+}
+
+#moreFields {
+	display: none;
+}
+
+#more {
+	border: none;
+	text-decoration: underline;
+	float: left;
+}
+
+#searchBtn {
+	float: right;
+}
+
+label {
+	text-decoration: none;
+	font-weight: none;
+}
+
+form div {
+	padding: 5px;
+}
+
+#images {
+	margin-top: 40px;
+	float: left;
+	width: 70%;
+}
+
+#images li {
+	list-style-type: none;
+	float: left;
+	padding: 10px;
+}
+
+#images img {
+	height: 270px;
+	width: 270px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Flickr Search Tool</title>
+	<link rel="stylesheet" href="css/stylesheet.css" />
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<script src="flickrapi/browser/flickrapi.dev.js"></script>
+	<script src="flickrapi/browser/flickrapi.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/main.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id = "title">
+		<h1>Flickr Image Search</h1>
+		<p>By Gwen Pfetsch</p>
+	</div>
+	<div id="search-form">
+		<form role="form">
+			<div class="form-group">
+				<label for="text">Search Text: </label>
+				<input type="text" class="form-control" id="textArg">
+			</div>
+		</form>
+		<form id="moreFields" role="form">
+			<div class="form-group">
+				<label for="username">Username: </label>
+				<input type="username" class="form-control" id="usernameInput">
+			</div>
+			<div class="form-group">
+				<label for="minDate">Uploaded Since: </label>
+				<input type="date" class="form-control" id="minDate">
+			</div>
+			<div class="form-group">
+				<label for="maxDate">Uploaded Until: </label>
+				<input type="date" class="form-control" id="maxDate">
+			</div>
+		</form>
+		
+		<button type="button" class="btn btn-default" id="more">More Fields</button>
+		<button type="button" class="btn btn-default" id="searchBtn">Search</button>
+		
+	</div>
+	<div id="images">
+	</div>
+</body>
+</html>
